@@ -1,0 +1,116 @@
+Nom de colonne dans import;Nom dans le fichier initial;Calculable;type;affichage;Nom après ventilation;Nouvelle table
+n1;Session;null;int;non;non;non
+n2;Statut de l’établissement de la filière de formation (public privé…);null;varchar(50);oui;statutEtaFilForm;Etablissements
+n3;Code UAI de l'établissement;null;varchar(8);oui;codeUAI;Etablissements
+n4;Établissement;null;varchar(200);oui;eta;Etablissements
+n5;Code départemental de l’établissement;null;varchar(3);oui;codeDepartements;Departements
+n6;Département de l’établissement;null;varchar(50);oui;Departements;Departements
+n7;Région de l’établissement;null;varchar(50);oui;region;Departements
+n8;Académie de l’établissement;null;varchar(50);oui;Aca;Departements
+n9;Commune de l’établissement;null;varchar(40);oui;commune;Etablissement
+n10;Filière de formation;null;varchar(300);oui;filForm;Formations
+n11;Sélectivité;null;varchar(50);oui;selectivite;Formations
+n12;Filière de formation très agrégée;null;varchar(50);oui;filFormTresDet;Formations
+n13;Filière de formation détaillée;null;varchar(500);oui;filFormDet;Formations
+n14;Filière de formation;null;varchar(100);oui;filFormBis;Formations
+n15;Filière de formation détaillée bis;null;varchar(200);oui;filFormDetBis;Formations
+n16;Filière de formation très détaillée;null;varchar(200);oui;filFormTresDetBIs;Formations
+n17;Coordonnées GPS de la formation;null;varchar(30);oui;coorGPS;Formations
+n18;Capacité de l’établissement par formation;null;int;oui;capaciteEtaForm;Formations
+n19;Effectif total des candidats pour une formation;null;int;oui;nbTotCandForm;Candidatures
+n20;Dont effectif des candidates pour une formation;null;int;oui;nbCandidatesForm;Candidatures
+n21;Effectif total des candidats en phase principale;n23+n25+n27+n29;int;non;non;non
+n22;Dont effectif des candidats ayant postulé en internat;null;int;oui;nbCandPostuleInternat;Candidatures
+n23;Effectif des candidats néo bacheliers généraux en phase principale;null;int;oui;nbCandNeoBacGenPrinc;Candidatures
+n24;Dont effectif des candidats boursiers néo bacheliers généraux en phase principale;null;int;oui;nbCandBoursiersNeoBacGenPrinc;Boursiers
+n25;Effectif des candidats néo bacheliers technologiques en phase principale;null;int;oui;nbCandNeoBacTecPrinc;Candidatures
+n26;Dont effectif des candidats boursiers néo bacheliers technologiques en phase principale;null;int;oui;nbCandBoursiersNeoBacTecPrinc;Boursiers
+n27;Effectif des candidats néo bacheliers professionnels en phase principale;null;int;oui;nbCandNeoBacProPrinc;Candidatures
+n28;Dont effectif des candidats boursiers néo bacheliers professionnels en phase principale;null;int;oui;nbCandBoursiersNeoBacProPrinc;Boursiers
+n29;Effectif des autres candidats en phase principale;null;int;oui;nbAutresCandPrinc;Candidatures
+n30;Effectif total des candidats en phase complémentaire;n31+n32+n33+n34;int;oui;nbTotCandComp;Candidatures
+n31;Effectif des candidats néo bacheliers généraux en phase complémentaire;null;int;oui;nbCandNeoBacGenComp;Candidatures
+n32;Effectif des candidats néo bacheliers technologique en phase complémentaire;null;int;oui;nbCandNeoBacTecComp;Candidatures
+n33;Effectif des candidats néo bacheliers professionnels en phase complémentaire;null;int;oui;nbCandNeoBacProComp;Candidatures
+n34;Effectifs des autres candidats en phase complémentaire;null;int;oui;nbAutresCandComp;Candidatures
+n35;Effectif total des candidats classés par l’établissement en phase principale;null;int;oui;nbTotCandClassEtaPrinc;Candidatures
+n36;Effectif des candidats classés par l’établissement en phase complémentaire;null;int;oui;nbCandClassEtaComp;Candidatures
+n37;Effectif des candidats classés par l’établissement en internat (CPGE);null;int;oui;nbCandClassEtaInternatCPGE;Candidatures
+n38;Effectif des candidats classés par l’établissement hors internat (CPGE);null;int;oui;nbCandClassEtaHorsInternatCPGE;Candidatures
+n39;Effectif des candidats néo bacheliers généraux classés par l’établissement;null;int;oui;nbCandNeoBacGenClassEta;Candidatures
+n40;Dont effectif des candidats boursiers néo bacheliers généraux classés par l’établissement;null;int;oui;nbCandBoursiersNeoBacGenClassEta;Boursiers
+n41;Effectif des candidats néo bacheliers technologiques classés par l’établissement;null;int;oui;nbCandNeoBacTecClassEta;Candidatures
+n42;Dont effectif des candidats boursiers néo bacheliers technologiques classés par l’établissement;null;int;oui;nbCandBoursiersNeoBacTecClassEta;Boursiers
+n43;Effectif des candidats néo bacheliers professionnels classés par l’établissement;null;int;oui;nbCandNeoBacProClassEta;Candidatures
+n44;Dont effectif des candidats boursiers néo bacheliers professionnels classés par l’établissement;null;int;oui;nbCandBoursiersNeoBacProClassEta;Boursiers
+n45;Effectif des autres candidats classés par l’établissement;null;int;oui;nbAutresCandClassEta;Candidatures
+n46;Effectif total des candidats ayant reçu une proposition d’admission de la part de l’établissement;null;int;oui;nbTotCandPropAdm;Candidatures
+n47;Effectif total des candidats ayant accepté la proposition de l’établissement (admis);null;int;oui;nbTotCandAcceptePropAdm;Candidatures
+n48;Dont effectif des candidates admises;null;int;oui;nbCandidatesAdmises;Candidatures
+n49;Effectif des admis en phase principale;null;int;oui;nbAdmPrinc;Candidatures
+n50;Effectif des admis en phase complémentaire;null;int;oui;nbAdmComp;Candidatures
+n51;Dont effectif des admis ayant reçu leur proposition d’admission à l'ouverture de la procédure principale;null;Numeric(5,2);oui;nbAdmRecuPropAdmOuvertureProcPrinc;Candidatures
+n52;Dont effectif des admis ayant reçu leur proposition d’admission avant le baccalauréat;null;Numeric(5,2);oui;nbAdmRecuPropAdmAvantBacc;Candidatures
+n53;Dont effectif des admis ayant reçu leur proposition d’admission avant la fin de la procédure principale;null;Numeric(5,2);oui;nbAdmRecuPropAdmAvantFinProcPrinc;Candidatures
+n54;Dont effectif des admis en internat;null;int;oui;nbAdmInternat;Candidatures
+n55;Dont effectif des admis boursiers néo bacheliers;null;int;oui;nbAdmBoursiersNeoBac;Boursiers
+n56;Effectif des admis néo bacheliers;null;int;oui;nbAdmNeoBac;Candidatures
+n57;Effectif des admis néo bacheliers généraux;null;int;oui;nbAdmNeoBacGen;Candidatures
+n58;Effectif des admis néo bacheliers technologiques;null;int;oui;nbAdmNeoBacTec;Candidatures
+n59;Effectif des admis néo bacheliers professionnels;null;int;oui;nbAdmNeoBacPro;Candidatures
+n60;Effectif des autres candidats admis;null;int;oui;nbAutresCandAdm;Candidatures
+n61;Dont effectif des admis néo bacheliers sans information sur la mention au bac;null;int;oui;nbAdmNeoBacSansInfoMenBac;Mentions
+n62;Dont effectif des admis néo bacheliers sans mention au bac;null;int;oui;nbAdmNeoBacSansMenBac;Mentions
+n63;Dont effectif des admis néo bacheliers avec mention Assez Bien au bac;null;int;oui;nbAdmNeoBacAvecMenABac;Mentions
+n64;Dont effectif des admis néo bacsql/requetes.sqlcheliers généraux ayant eu une mention au bac;null;int;oui;nbAdmNeoBacGenMenBac;Mentions
+n68;Effectif des admis néo bacheliers technologiques ayant eu une mention au bac;null;int;oui;nbAdmNeoBacTecMenBac;Mentions
+n69;Effectif des admis néo bacheliers professionnels ayant eu une mention au bac;null;int;oui;nbAdmNeoBacProMenBac;Mentions
+n70;Dont effectif des admis issus du même établissement (BTS/CPGE);null;int;oui;nbAdmIssusMemeEtaBTS_CPGE;Candidatures
+n71;Dont effectif des admises issues du même établissement (BTS/CPGE);null;int;oui;nbAdmisesIssuesMemeEtaBTS_CPGE;Candidatures
+n72;Dont effectif des admis issus de la même académie;null;int;oui;nbAdmIssusMemeAca;Candidatures
+n73;Dont effectif des admis issus de la même académie (Paris/Créteil/Versailles réunies);null;int;oui;nbAdmIssusMemeAcaParisCreteilVersaillesReunies;Candidatures
+n74;% d’admis ayant reçu leur proposition d’admission à l'ouverture de la procédure principale;(n51/n47)*100;Numeric(5,2);non;non;non
+n75;% d’admis ayant reçu leur proposition d’admission avant le baccalauréat;(n52/n47)*100;Numeric(5,2);non;non;non
+n76;% d’admis ayant reçu leur proposition d’admission avant la fin de la procédure principale;(n53/n47)*100;Numeric(5,2);non;non;non
+n77;% d’admis dont filles;(n48/47)*100;Numeric(5,2);non;non;non
+n78;% d’admis néo bacheliers issus de la même académie;(n72/n56)*100;Numeric(5,2);non;non;non
+n79;% d’admis néo bacheliers issus de la même académie (Paris/Créteil/Versailles réunies);(n73/n56)*100;Numeric(5,2);non;non;non
+n80;% d’admis néo bacheliers issus du même établissement (BTS/CPGE);(n70/n56)*100;Numeric(5,2);non;non;non
+n81;% d’admis néo bacheliers boursiers;(n55/n56)*100;Numeric(5,2);non;non;non
+n82;% d’admis néo bacheliers;(n56/n47)*100;Numeric(5,2);non;non;non
+n83;% d’admis néo bacheliers sans information sur la mention au bac;(n61/n56)*100;Numeric(5,2);non;non;non
+n84;% d’admis néo bacheliers sans mention au bac;(n62/n56)*100;Numeric(5,2);non;non;non
+n85;% d’admis néo bacheliers avec mention Assez Bien au bac;(n63/n56)*100;Numeric(5,2);non;non;non
+n86;% d’admis néo bacheliers avec mention Bien au bac;(n64/n56)*100;Numeric(5,2);non;non;non
+n87;% d’admis néo bacheliers avec mention Très Bien au bac;(n65/n56)*100;Numeric(5,2);non;non;non
+n88;% d’admis néo bacheliers avec mention Très Bien avec félicitations au bac;(n66/n56)*100;Numeric(5,2);non;non;non
+n89;% d’admis néo bacheliers généraux;(n57/n56)*100;Numeric(5,2);non;non;non
+n90;Dont % d’admis avec mention (BG);(n67/n56)*100;Numeric(5,2);non;non;non
+n91;% d’admis néo bacheliers technologiques;(n58/56)*100;Numeric(5,2);non;non;non
+n92;Dont % d’admis avec mention (BT);(n68/n56)*100;Numeric(5,2);non;non;non
+n93;% d’admis néo bacheliers professionnels;(n59/n56)*100;Numeric(5,2);non;non;non
+n94;Dont % d’admis avec mention (BP);(n69/n56)*100;Numeric(5,2);non;non;non
+n95;Effectif des candidats en terminale générale ayant reçu une proposition d’admission de la part de l’établissement;null;Numeric(5,2);oui;nbCandTermGenRecuPropAdm;Candidatures
+n96;Dont effectif des candidats boursiers en terminale générale ayant reçu une proposition d’admission de la part de l’établissement;null;Numeric(5,2);oui;nbCandBoursiersTermGenRecuPropAdm;Boursiers
+n97;Effectif des candidats en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement;null;Numeric(5,2);oui;nbCandTermTecRecuPropAdm;Candidatures
+n98;Dont effectif des candidats boursiers en terminale technologique ayant reçu une proposition d’admission de la part de l’établissement;null;Numeric(5,2);oui;nbCandBoursiersTermTecRecuPropAdm;Boursiers
+n99;Effectif des candidats en terminale professionnelle ayant reçu une proposition d’admission de la part de l’établissement;null;Numeric(5,2);oui;nbCandTermProRecuPropAdm;Candidatures
+n100;Dont effectif des candidats boursiers en terminale générale professionnelle ayant reçu une proposition d’admission de la part de l’établissement;null;Numeric(5,2);oui;nbCandBoursiersTermGenProRecuPropAdm;Boursiers
+n101;Effectif des autres candidats ayant reçu une proposition d’admission de la part de l’établissement;null;numeric;oui;nbAutresCandRecuPropAdm;Candidatures
+n102;Regroupement 1 effectué par les formations pour les classements;null;varchar(50);oui;regroupement1EffectueFormClass;Candidatures
+n103;Rang du dernier appelé du groupe 1;null;numeric;oui;rangDernierAppeleGroupe1;Candidatures
+n104;Regroupement 2 effectué par les formations pour les classements;null;varchar(50);oui;regroupement2EffectueFormClass;Candidatures
+n105;Rang du dernier appelé du groupe 2;null;int;oui;rangDernierAppeleGroupe2;Candidatures
+n106;Regroupement 3 effectué par les formations pour les classements;null;varchar(50);oui;regroupement3EffectueFormClass;Candidatures
+n107;Rang du dernier appelé du groupe 3;null;int;oui;rangDernierAppeleGroupe3;Candidatures
+n108;list_com;null;varchar(100);non;non;non
+n109;tri;null;varchar(20);non;non;non
+n110;cod_aff_form;null;int;oui;codeForm;Formations
+n111;Concours communs et banque d'épreuves;null;text;non;non;non
+n112;Lien de la formation sur la plateforme Parcoursup;null;text;non;non;non
+n113;Taux d’accès;null;Numeric(5,2);oui;tauxAcces;Candidatures
+n114;Part des terminales générales qui étaient en position de recevoir une proposition en phase principale;null;Numeric(5,2);oui;partTermsGenPropPrinc;Candidatures
+n115;Part des terminales technologiques qui étaient en position de recevoir une proposition en phase principale;null;Numeric(5,2);oui;partTermsTecPropPrinc;Candidatures
+n116;Part des terminales professionnelles qui étaient en position de recevoir une proposition en phase principale;null;Numeric(5,2);oui;partTermsProPropPrinc;Candidatures
+n117;etablissement_id_paysage;null;varchar(10);non;non;non
+n118;composante_id_paysage;null;varchar(10);non;non;non
